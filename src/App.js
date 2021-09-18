@@ -8,6 +8,7 @@ import { useSelector } from 'react-redux'
 import Login from './Login'
 import { auth } from './firebase'
 import { useDispatch } from 'react-redux'
+import Widgets from './Widgets'
 
 function App() {
   const dispatch = useDispatch()
@@ -46,6 +47,7 @@ function App() {
           {/* FEED */}
           <Feed />
           {/* WIDGETS */}
+          <Widgets />
         </div>
       )}
     </div>

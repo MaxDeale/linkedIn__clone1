@@ -11,11 +11,17 @@
 
 .post__info {
   margin-left: 10px;
+  border-radius: 5px;
 }
 
 .post__info > p {
   font-size: 12px;
+  display: flex;
   color: grey;
+}
+
+.post__info h2 {
+  font-size: 15px;
 }
 
 .post__body {
@@ -23,7 +29,8 @@
 }
 
 .post__body h2 {
-  font-size: 15px;
+  padding-bottom: 10px;
+  font-size: 11px;
 }
 
 .post__buttons {
